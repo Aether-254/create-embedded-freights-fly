@@ -26,8 +26,8 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
     modImplementation "maven.modrinth:create-fly:${project.create_fly_version}"
-    modImplementation "maven.modrinth:cloth-config:21.11.153+fabric"
-    modCompileOnly "maven.modrinth:modmenu:17.0.0"
+    modImplementation "maven.modrinth:cloth-config:${project.cloth_config_version}"
+    modCompileOnly "maven.modrinth:modmenu:${project.modmenu_version}"
 }
 
 processResources {
