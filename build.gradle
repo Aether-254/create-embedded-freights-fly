@@ -15,7 +15,7 @@ repositories {
     maven { url = "https://maven.terraformersmc.com/releases/" }
     ivy {
         name = "createFlyDirect"
-        url = "https://cdn.modrinth.com/data/dKvj0eNn/versions/wV5IQLKg"
+        url = "https://cdn.modrinth.com/data/dKvj0eNn/versions/phlsMPgT"
         patternLayout { artifact "[artifact]-[revision].[ext]" }
         metadataSources { artifact() }
         content { includeGroup "create.fly.direct" }
